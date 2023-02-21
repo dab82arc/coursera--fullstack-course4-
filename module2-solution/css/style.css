@@ -35,15 +35,13 @@ html {
     vertical-align: middle;
   }
   
-  /* Estilos personalizados */
-  /* Aquí puedes agregar tus propios estilos */
-  
   
   h1 {
     text-align: center;
+    font-size: 175%;
   }
   .main {
-    padding:  32px;
+    padding: 32px;
   }
   
   .wrapper {
@@ -53,49 +51,39 @@ html {
     margin: 4px;
     background-color: rgb(152, 152, 152);
     overflow: auto;
-    position:relative;
+    position: relative;
     padding: 48px 16px 8px 16px;
     text-align: justify;
-  
-  }
+   }
   
   .sb {
-  
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    position:absolute;
+    position: absolute;
+    font-size: 125%;
     top: 0;
     right:0;
-    float:right;
+    float: right;
     margin:0 0 10px 10px;
     min-width: 100px;
     text-align: center;
-    
-    
-  
-  }
+   }
   
   .wrapper p {
-  
-   position:relative;
-   
-   
-  
+    position: relative;
   }
   
   .chicken {
-    background-color:coral  ;
-   
+    background-color: coral  ;
   }
   
   .beef{
     background-color: brown;
-    color:aliceblue;
+    color: white;
   }
   
   .sushi{
-  
     background-color: rgb(148, 180, 31);  
   }
   @media (min-width:992px){
@@ -120,10 +108,10 @@ html {
       width: 100%;
       height: 100%;
       position: relative;
-      clear:both;
+      clear: both;
       }
       
-      .arriba1 {
+      .box1 {
       max-width: 48%;
       height: auto;
       vertical-align: top;
@@ -133,9 +121,10 @@ html {
       font-size: 16px;
       position: relative;
       display: inline-block;
+
       }
       
-      .arriba2 {
+      .box2 {
       max-width: 48%;
       height: auto;
       vertical-align: top;
@@ -143,14 +132,13 @@ html {
       border: 3px solid black;
       padding: 10px;
       font-size: 16px;
-      
       position: relative;
       display: inline-block;
-      float: right;
-        
-      }
+      float: right;  
+    
+     }
       
-      .abajo {
+      .box3 {
       clear: both;
       display: inline-block;
       width: 99%;
@@ -158,11 +146,11 @@ html {
       border: 3px solid black;
       padding: 10px;
       font-size: 16px;
-      margin-top: 20px; /* Agregar esta línea para separar la caja de abajo del contenido superior */
+      margin-top: 20px; 
       }
   
-      .contenido{
-        margin-top:20px;
+      .description{
+        margin-top: 20px;
       }
   }
   
